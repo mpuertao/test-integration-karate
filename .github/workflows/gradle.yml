@@ -20,4 +20,4 @@ jobs:
       - name: Permisos Admin gradlew
         run: chmod +x gradlew
       - name: Gradle Build - Test
-        run: ./gradlew clean build test --info
+        run: ./gradlew clean test --info
